@@ -1,7 +1,7 @@
 const request = require('request');
 const crypto = require('crypto');
 
-const config = require('../config/config');
+const config = require('../../config/config');
 
 /**
  * GET /characters?name={name}&limit={limit}
