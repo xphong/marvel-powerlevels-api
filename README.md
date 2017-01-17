@@ -32,6 +32,5 @@ yarn
 
 * Run server (port 3000): `npm start`
 
-TODO:
-* Tests
+### TODO:
 * Cors
