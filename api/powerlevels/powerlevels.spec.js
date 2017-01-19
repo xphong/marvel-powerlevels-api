@@ -5,10 +5,10 @@ const app = require('../../app');
 
 describe('PowerLevels', () => {
 
-  describe('GET /api/v1/powerlevels', (done) => {
+  describe('GET /api/powerlevels', (done) => {
     it('should return powerlevels data', function(done) {
       request(app)
-        .get('/api/v1/powerlevels')
+        .get('/api/powerlevels')
         .end(function(err, res) {
           expect(res.statusCode).to.equal(200);
           expect(res.body).to.have.length.above(0);
@@ -18,7 +18,7 @@ describe('PowerLevels', () => {
 
     it('should return 404 on other endpoints', function(done) {
       request(app)
-        .get('/api/v1/powerlevels/spiderman')
+        .get('/api/powerlevels/spiderman')
         .end(function(err, res) {
           expect(res.statusCode).to.equal(404);
           done();
