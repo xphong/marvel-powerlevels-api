@@ -30,17 +30,15 @@ yarn
 
 ## Scripts
 
-* Run server (port 3000): `npm start`
+* Run server (port 8080): `npm start`
+* Run tests: `npm test`
 
 ## API
 
-#### GET /characters?name={name}&limit={limit}
+### GET /characters?name={name}&limit={limit}
 
 * Returns marvel characters that start with {name} and {limit} number of results
 
-#### GET /powerlevels
+### GET /powerlevels
 
 * Returns marvel characters with power levels for intelligence, strength, speed, durability, energy projection, and fighting ability.
-
-### TODO:
-* Cors
