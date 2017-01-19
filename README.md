@@ -4,7 +4,7 @@ Express + MongoDB + Marvel API
 
 * Searches the Marvel database for the characters using the [Marvel API](https://developer.marvel.com/)
 * Show power levels of popular Marvel characters
-* [Data provided by Marvel. © 2016 Marvel](http://marvel.com)
+* [Data provided by Marvel. © Marvel](http://marvel.com)
 
 ## Getting Started
 
@@ -31,6 +31,16 @@ yarn
 ## Scripts
 
 * Run server (port 3000): `npm start`
+
+## API
+
+#### GET /characters?name={name}&limit={limit}
+
+* Returns marvel characters that start with {name} and {limit} number of results
+
+#### GET /powerlevels
+
+* Returns marvel characters with power levels for intelligence, strength, speed, durability, energy projection, and fighting ability.
 
 ### TODO:
 * Cors

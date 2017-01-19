@@ -2,7 +2,7 @@ const PowerLevels = require('./powerlevels.model');
 
 /**
  * GET /powerlevels
- * Returns power levels.
+ * Returns marvel characters power levels.
  */
 exports.get = (req, res) => {
   try {
