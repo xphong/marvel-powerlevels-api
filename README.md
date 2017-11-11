@@ -18,7 +18,7 @@ mongoimport --db marvel --collection powerlevels --type json --file data/powerle
 ### Add Marvel API Public/Private Keys
 
 * Get Marvel API keys from [https://developer.marvel.com/](https://developer.marvel.com/)
-* Add your keys to `server/config.js`
+* Add your keys to `config/config.js`
 
 ### Dependencies
 
