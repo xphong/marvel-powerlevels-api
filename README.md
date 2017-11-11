@@ -30,6 +30,7 @@ yarn
 
 ## Scripts
 
+* Have Mongo running: `mongod`
 * Run server (port 8080): `npm start`
 * Run tests: `npm test`
 
